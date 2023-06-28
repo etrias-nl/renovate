@@ -18,7 +18,7 @@
                 "^okteto.yaml$"
             ],
             "matchStrings": [
-                "image\\s*:\\s*(['\"]?)(?<depName>[\\w\\\/\\-\\.]+?):(?<currentValue>[\\w\\\/\\-\\.]++)\\1"
+                "image\\s*:\\s*['\"](?<depName>[\\w\\\/\\-\\.]+?):(?<currentValue>[\\w\\\/\\-\\.]++)['\"]"
             ]
         }
     ]
