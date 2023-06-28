@@ -10,5 +10,16 @@
     "rangeStrategy": "bump",
     "ignoreDeps": [
         "alptis/net-gearman"
+    ],
+    "regexManagers": [
+        {
+            "datasourceTemplate": "docker",
+            "fileMatch": [
+                "^okteto.yaml$"
+            ],
+            "matchStrings": [
+                "image\\s*:\\s*(['\"]?)(?<depName>[\\w\\\/\\-\\.]+?):(?<currentValue>[\\w\\\/\\-\\.]++)\\1"
+            ]
+        }
     ]
 }
