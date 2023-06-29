@@ -13,12 +13,22 @@
     ],
     "regexManagers": [
         {
-            "datasourceTemplate": "docker",
             "fileMatch": [
                 "^okteto.yaml$"
             ],
             "matchStrings": [
                 "image\\s?:\\s?(?<depName>.*?):(?<currentValue>[\\w+\\.\\-]*)"
+            ],
+            "datasourceTemplate": "docker",
+            "versioningTemplate": "loose"
+        }
+    ],
+    "packageRules": [
+        {
+            "groupName": "php",
+            "matchDepNames": [
+                "php",
+                "etriasnl/dev-php-fpm"
             ]
         }
     ]
