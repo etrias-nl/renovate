@@ -30,6 +30,13 @@
                 "php",
                 "etriasnl/dev-php-fpm"
             ]
+        },
+        {
+            "groupName": "pagerfanta",
+            "matchDepNames": [
+                "pagerfanta/pagerfanta",
+                "babdev/pagerfanta-bundle"
+            ]
         }
     ]
 }
