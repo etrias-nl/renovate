@@ -42,6 +42,9 @@
             "groupName": "php-http",
             "matchDepPatterns": [
                 "^php-http/"
+            ],
+            "matchDepNames": [
+                "nyholm/psr7"
             ]
         }
     ]
