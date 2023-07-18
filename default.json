@@ -40,6 +40,12 @@
             "matchDepNames": [
                 "nyholm/psr7"
             ]
+        },
+        {
+            "groupName": "flysystem",
+            "matchDepPatterns": [
+                "flysystem"
+            ]
         }
     ]
 }
