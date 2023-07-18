@@ -37,6 +37,12 @@
                 "pagerfanta/pagerfanta",
                 "babdev/pagerfanta-bundle"
             ]
+        },
+        {
+            "groupName": "php-http",
+            "matchDepPatterns": [
+                "^php-http/"
+            ]
         }
     ]
 }
