@@ -41,11 +41,11 @@
         {
             "groupName": "php-http",
             "matchDepPatterns": [
-                "^php-http/"
+                "^php-http/",
+                "^psr/http-"
             ],
             "matchDepNames": [
-                "nyholm/psr7",
-                "psr/http-message"
+                "nyholm/psr7"
             ]
         }
     ]
