@@ -6,7 +6,7 @@
         ":semanticCommits",
         ":separatePatchReleases"
     ],
-    "configMigration": false,
+    "configMigration": true,
     "rangeStrategy": "bump",
     "ignoreDeps": [
         "alptis/net-gearman"
