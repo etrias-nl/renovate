@@ -44,7 +44,7 @@
         {
             "groupName": "twig",
             "matchDepPatterns": [
-                "^twig/",
+                "^twig/"
             ]
         },
         {
