@@ -42,6 +42,12 @@
             ]
         },
         {
+            "groupName": "twig",
+            "matchDepPatterns": [
+                "^twig/",
+            ]
+        },
+        {
             "groupName": "flysystem",
             "matchDepPatterns": [
                 "flysystem"
