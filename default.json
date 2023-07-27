@@ -8,6 +8,9 @@
     ],
     "configMigration": true,
     "rangeStrategy": "bump",
+    "lockFileMaintenance": {
+        "enabled": true
+    },
     "ignoreDeps": [
         "alptis/net-gearman"
     ],
