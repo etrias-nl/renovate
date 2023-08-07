@@ -31,7 +31,8 @@
             "groupName": "php",
             "matchDepNames": [
                 "php",
-                "etriasnl/dev-php-fpm"
+                "etriasnl/dev-php-fpm",
+                "etriasnl/php-fpm"
             ]
         },
         {
