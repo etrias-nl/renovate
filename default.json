@@ -22,7 +22,8 @@
             "matchStrings": [
                 "image\\s?:\\s?(?<depName>.*?):(?<currentValue>[\\w+\\.\\-]*)"
             ],
-            "datasourceTemplate": "docker"
+            "datasourceTemplate": "docker",
+            "versioningTemplate": "loose"
         }
     ],
     "packageRules": [
