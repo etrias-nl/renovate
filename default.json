@@ -37,7 +37,6 @@
         },
         {
             "matchDepNames": [
-                "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm"
             ],
             "versioning": "loose"
