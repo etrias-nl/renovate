@@ -22,8 +22,7 @@
             "matchStrings": [
                 "image\\s?:\\s?(?<depName>.*?):(?<currentValue>[\\w+\\.\\-]*)"
             ],
-            "datasourceTemplate": "docker",
-            "versioningTemplate": "loose"
+            "datasourceTemplate": "docker"
         }
     ],
     "packageRules": [
@@ -36,26 +35,11 @@
             ]
         },
         {
-            "groupName": "php-http",
-            "matchDepPatterns": [
-                "^php-http/",
-                "^psr/http-"
-            ],
             "matchDepNames": [
-                "nyholm/psr7"
-            ]
-        },
-        {
-            "groupName": "twig",
-            "matchDepPatterns": [
-                "^twig/"
-            ]
-        },
-        {
-            "groupName": "flysystem",
-            "matchDepPatterns": [
-                "flysystem"
-            ]
+                "etriasnl/dev-php-fpm",
+                "etriasnl/php-fpm"
+            ],
+            "versioning": "loose"
         }
     ]
 }
