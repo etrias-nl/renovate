@@ -40,6 +40,12 @@
                 "etriasnl/php-fpm"
             ],
             "versioning": "loose"
+        },
+        {
+            "groupName": "twig",
+            "matchDepPatterns": [
+                "^twig/"
+            ]
         }
     ]
 }
