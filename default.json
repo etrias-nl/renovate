@@ -9,6 +9,7 @@
     "configMigration": true,
     "rangeStrategy": "bump",
     "pinDigests": false,
+    "minimumReleaseAge": 5,
     "lockFileMaintenance": {
         "enabled": true
     },
