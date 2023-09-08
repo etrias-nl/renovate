@@ -48,6 +48,12 @@
             "matchDepPatterns": [
                 "^twig/"
             ]
+        },
+        {
+            "groupName": "flysystem",
+            "matchDepPatterns": [
+                "^league/flysystem"
+            ]
         }
     ]
 }
