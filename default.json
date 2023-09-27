@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
+        "config:recommended",
         ":rebaseStalePrs",
         ":semanticCommits",
         ":separatePatchReleases"
@@ -17,7 +17,7 @@
     "ignoreDeps": [
         "alptis/net-gearman"
     ],
-    "regexManagers": [
+    "customManagers": [
         {
             "fileMatch": [
                 "^okteto.yaml$"
