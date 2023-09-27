@@ -18,3 +18,5 @@ jobs:
                 uses: actions/setup-node@v3.8.1
             -
                 run: npx --package renovate -c 'renovate-config-validator'
+            -
+                run: npm config get cache
