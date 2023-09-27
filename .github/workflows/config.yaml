@@ -1,0 +1,20 @@
+name: Config Validation
+
+'on':
+    push:
+        branches: [ main ]
+        paths: [ 'default.json' ]
+    pull_request:
+        branches: [ main ]
+        paths: [ 'default.json' ]
+
+jobs:
+    validate:
+        runs-on: ubuntu-latest
+        steps:
+            -
+                uses: actions/checkout@v4.1.0
+            -
+                uses: actions/setup-node@v3
+            -
+                run: npx --package renovate -c 'renovate-config-validator'
