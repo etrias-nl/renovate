@@ -19,6 +19,7 @@
     ],
     "customManagers": [
         {
+            "customType": "regex",
             "fileMatch": [
                 "^okteto.yaml$"
             ],
