@@ -3,10 +3,10 @@ name: Config Validation
 'on':
     push:
         branches: [ main ]
-        paths: [ 'default.json' ]
+        #paths: [ 'default.json' ]
     pull_request:
         branches: [ main ]
-        paths: [ 'default.json' ]
+        #paths: [ 'default.json' ]
 
 jobs:
     validate:
