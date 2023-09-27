@@ -3,10 +3,8 @@ name: Config Validation
 'on':
     push:
         branches: [ main ]
-        #paths: [ 'default.json' ]
     pull_request:
         branches: [ main ]
-        #paths: [ 'default.json' ]
 
 jobs:
     validate:
@@ -17,4 +15,4 @@ jobs:
             -
                 uses: actions/setup-node@v3.8.1
             -
-                run: npx --package renovate -c 'renovate-config-validator --strict'
+                run: npx --package renovate -c 'renovate-config-validator --strict default.json'
