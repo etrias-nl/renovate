@@ -59,5 +59,6 @@
                 "league/flysystem-bundle"
             ]
         }
-    ]
+    ],
+    "foo": 1
 }
