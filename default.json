@@ -11,7 +11,8 @@
     "pinDigests": false,
     "minimumReleaseAge": 5,
     "lockFileMaintenance": {
-        "enabled": true
+        "enabled": true,
+        "schedule": "at any time"
     },
     "ignoreDeps": [
         "alptis/net-gearman"
