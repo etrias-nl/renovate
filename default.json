@@ -13,9 +13,7 @@
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-            "after 10pm every weekday",
-            "before 5am every weekday",
-            "every weekend"
+            "before 4am on the first day of the month"
         ]
     },
     "ignoreDeps": [
