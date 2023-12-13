@@ -58,9 +58,6 @@
             "groupName": "flysystem",
             "matchDepPatterns": [
                 "^league/flysystem"
-            ],
-            "excludeDepNames": [
-                "league/flysystem-bundle"
             ]
         }
     ]
