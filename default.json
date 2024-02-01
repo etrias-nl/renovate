@@ -59,6 +59,12 @@
             "matchDepPatterns": [
                 "^league/flysystem"
             ]
+        },
+        {
+            "groupName": "pagerfanta",
+            "matchDepPatterns": [
+                "^pagerfanta/"
+            ]
         }
     ]
 }
