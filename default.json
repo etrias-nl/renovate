@@ -34,7 +34,7 @@
     ],
     "packageRules": [
         {
-            "groupName": "docker-actions",
+            "groupName": "docker-ci",
             "matchDepPatterns": [
                 "^docker/"
             ],
