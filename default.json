@@ -37,7 +37,7 @@
             "groupName": "docker-ci",
             "matchDepPatterns": [
                 "^docker/",
-                "^scribemd/docker-cache"
+                "^ScribeMD/docker-cache"
             ],
             "matchCategories": [
                 "ci"
