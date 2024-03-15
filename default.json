@@ -34,6 +34,15 @@
     ],
     "packageRules": [
         {
+            "groupName": "docker-actions",
+            "matchDepPatterns": [
+                "^docker/"
+            ],
+            "matchCategories": [
+                "ci"
+            ]
+        },
+        {
             "groupName": "php",
             "matchDepNames": [
                 "php",
