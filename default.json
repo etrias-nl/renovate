@@ -3,8 +3,7 @@
     "extends": [
         "config:recommended",
         ":rebaseStalePrs",
-        ":semanticCommits",
-        ":separatePatchReleases"
+        ":semanticCommits"
     ],
     "configMigration": true,
     "rangeStrategy": "bump",
