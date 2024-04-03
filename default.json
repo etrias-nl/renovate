@@ -58,9 +58,21 @@
             "versioning": "loose"
         },
         {
+            "groupName": "symfony",
+            "matchDepPatterns": [
+                "^symfony/"
+            ]
+        },
+        {
             "groupName": "twig",
             "matchDepPatterns": [
                 "^twig/"
+            ]
+        },
+        {
+            "groupName": "doctrine",
+            "matchDepPatterns": [
+                "^doctrine/"
             ]
         },
         {
