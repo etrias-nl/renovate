@@ -33,6 +33,19 @@
     ],
     "packageRules": [
         {
+            "matchDepNames": [
+                "php"
+            ],
+            "customChangelogUrl": "https://github.com/php/php-src"
+        },
+        {
+            "matchDepNames": [
+                "etriasnl/dev-php-fpm",
+                "etriasnl/php-fpm"
+            ],
+            "versioning": "loose"
+        },
+        {
             "groupName": "docker-ci",
             "matchDepPatterns": [
                 "^docker/",
@@ -48,14 +61,8 @@
                 "php",
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm"
-            ]
-        },
-        {
-            "matchDepNames": [
-                "etriasnl/dev-php-fpm",
-                "etriasnl/php-fpm"
             ],
-            "versioning": "loose"
+            "separateMinorPatch": true
         },
         {
             "groupName": "symfony",
