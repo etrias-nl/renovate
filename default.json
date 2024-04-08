@@ -34,9 +34,9 @@
     "packageRules": [
         {
             "matchDepNames": [
-                "php"
+                "psalm/phar"
             ],
-            "customChangelogUrl": "https://github.com/php/php-src"
+            "customChangelogUrl": "https://github.com/vimeo/psalm"
         },
         {
             "matchDepNames": [
