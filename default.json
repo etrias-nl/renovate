@@ -34,6 +34,18 @@
     "packageRules": [
         {
             "matchDepNames": [
+                "php"
+            ],
+            "customChangelogUrl": "https://www.php.net/ChangeLog-8.php"
+        },
+        {
+            "matchDepNames": [
+                "nats"
+            ],
+            "customChangelogUrl": "https://github.com/nats-io/nats-server"
+        },
+        {
+            "matchDepNames": [
                 "psalm/phar"
             ],
             "customChangelogUrl": "https://github.com/vimeo/psalm"
