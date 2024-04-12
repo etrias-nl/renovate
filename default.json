@@ -36,6 +36,11 @@
             "k8s/.+\\.yaml$"
         ]
     },
+    "helm-values": {
+        "fileMatch": [
+            "k8s/.+\\.yaml$"
+        ]
+    },
     "packageRules": [
         {
             "matchDepNames": [
