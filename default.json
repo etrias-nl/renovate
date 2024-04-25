@@ -51,6 +51,12 @@
         },
         {
             "matchDepNames": [
+                "composer/composer"
+            ],
+            "customChangelogUrl": "https://github.com/composer/composer"
+        },
+        {
+            "matchDepNames": [
                 "psalm/phar"
             ],
             "customChangelogUrl": "https://github.com/vimeo/psalm"
