@@ -45,6 +45,12 @@
     "packageRules": [
         {
             "matchDepNames": [
+                "php"
+            ],
+            "customChangelogUrl": "https://github.com/php/php-src"
+        },
+        {
+            "matchDepNames": [
                 "nats"
             ],
             "matchDatasources": [
