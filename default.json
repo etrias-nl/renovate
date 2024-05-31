@@ -47,7 +47,19 @@
             "matchDepNames": [
                 "nats"
             ],
+            "matchDatasources": [
+                "docker"
+            ],
             "customChangelogUrl": "https://github.com/nats-io/nats-server"
+        },
+        {
+            "matchDepNames": [
+                "nats"
+            ],
+            "matchDatasources": [
+                "helm"
+            ],
+            "customChangelogUrl": "https://github.com/nats-io/k8s"
         },
         {
             "matchDepNames": [
