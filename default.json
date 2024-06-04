@@ -9,7 +9,7 @@
     "rangeStrategy": "bump",
     "pinDigests": false,
     "rollbackPrs": true,
-    "minimumReleaseAge": "3 days",
+    "minimumReleaseAge": "5 days",
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
