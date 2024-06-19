@@ -47,7 +47,7 @@
             "matchDepNames": [
                 "php"
             ],
-            "customChangelogUrl": "https://github.com/php/php-src"
+            "changelogUrl": "https://github.com/php/php-src"
         },
         {
             "matchDepNames": [
@@ -56,7 +56,7 @@
             "matchDatasources": [
                 "docker"
             ],
-            "customChangelogUrl": "https://github.com/nats-io/nats-server"
+            "changelogUrl": "https://github.com/nats-io/nats-server"
         },
         {
             "matchDepNames": [
@@ -65,19 +65,19 @@
             "matchDatasources": [
                 "helm"
             ],
-            "customChangelogUrl": "https://github.com/nats-io/k8s"
+            "changelogUrl": "https://github.com/nats-io/k8s"
         },
         {
             "matchDepNames": [
                 "composer/composer"
             ],
-            "customChangelogUrl": "https://github.com/composer/composer"
+            "changelogUrl": "https://github.com/composer/composer"
         },
         {
             "matchDepNames": [
                 "psalm/phar"
             ],
-            "customChangelogUrl": "https://github.com/vimeo/psalm"
+            "changelogUrl": "https://github.com/vimeo/psalm"
         },
         {
             "matchDepNames": [
