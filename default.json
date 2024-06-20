@@ -82,15 +82,10 @@
         {
             "matchDepNames": [
                 "etriasnl/dev-php-fpm",
-                "etriasnl/php-fpm"
-            ],
-            "versioning": "loose"
-        },
-        {
-            "matchDepNames": [
+                "etriasnl/php-fpm",
                 "minio/minio"
             ],
-            "versioning": "regex:^RELEASE\\.(?<major>\\d{4})-(?<minor>\\d{2})-(?<patch>\\d{2})"
+            "versioning": "loose"
         },
         {
             "groupName": "docker-ci",
