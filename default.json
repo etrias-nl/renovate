@@ -82,7 +82,8 @@
         {
             "matchDepNames": [
                 "etriasnl/dev-php-fpm",
-                "etriasnl/php-fpm"
+                "etriasnl/php-fpm",
+                "minio/minio"
             ],
             "versioning": "loose"
         },
