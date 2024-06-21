@@ -45,33 +45,6 @@
     "packageRules": [
         {
             "matchDepNames": [
-                "php"
-            ],
-            "changelogUrl": "https://github.com/php/php-src"
-        },
-        {
-            "matchDepNames": [
-                "nats"
-            ],
-            "matchDatasources": [
-                "docker"
-            ],
-            "changelogUrl": "https://github.com/nats-io/nats-server"
-        },
-        {
-            "matchDepNames": [
-                "composer/composer"
-            ],
-            "changelogUrl": "https://github.com/composer/composer"
-        },
-        {
-            "matchDepNames": [
-                "psalm/phar"
-            ],
-            "changelogUrl": "https://github.com/vimeo/psalm"
-        },
-        {
-            "matchDepNames": [
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm"
             ],
