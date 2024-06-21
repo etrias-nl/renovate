@@ -77,7 +77,7 @@
             "matchDepNames": [
                 "psalm/phar"
             ],
-            "changelogUrl": "https://github.com/vimeo/psalm"
+            "customChangelogUrl": "https://github.com/vimeo/psalm"
         },
         {
             "matchDepNames": [
