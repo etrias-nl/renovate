@@ -45,16 +45,16 @@
     "packageRules": [
         {
             "matchDepNames": [
-                "minio/minio"
-            ],
-            "versioning": "regex:^RELEASE\\.(?<major>\\d{4})-(?<minor>\\d{2})-(?<patch>\\d{2})T(?<build>.+)Z$"
-        },
-        {
-            "matchDepNames": [
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm"
             ],
             "versioning": "loose"
+        },
+        {
+            "matchDepNames": [
+                "minio/minio"
+            ],
+            "versioning": "regex:^RELEASE\\.(?<major>\\d{4})-(?<minor>\\d{2})-(?<patch>\\d{2})T(?<build>.+)Z$"
         },
         {
             "groupName": "docker-ci",
