@@ -60,15 +60,6 @@
         },
         {
             "matchDepNames": [
-                "nats"
-            ],
-            "matchDatasources": [
-                "helm"
-            ],
-            "changelogUrl": "https://github.com/nats-io/k8s"
-        },
-        {
-            "matchDepNames": [
                 "composer/composer"
             ],
             "changelogUrl": "https://github.com/composer/composer"
