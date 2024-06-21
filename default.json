@@ -82,17 +82,13 @@
         {
             "matchDepNames": [
                 "etriasnl/dev-php-fpm",
-                "etriasnl/php-fpm",
-                "minio/minio"
+                "etriasnl/php-fpm"
             ],
             "versioning": "loose"
         },
         {
-            "matchDatasources": [
-                "docker"
-            ],
-            "matchPackagePatterns": [
-                "^minio"
+            "matchDepNames": [
+                "minio/minio"
             ],
             "versioning": "regex:^RELEASE\\.(?<major>\\d{4})-(?<minor>\\d{2})-(?<patch>\\d{2})T(?<build>.+)Z$"
         },
