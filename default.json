@@ -47,7 +47,8 @@
             "matchDepNames": [
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm",
-                "minio/minio"
+                "minio/minio",
+                "ghcr.io/utkuozdemir/dperson-openvpn-client"
             ],
             "versioning": "loose"
         },
