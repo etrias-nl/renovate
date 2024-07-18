@@ -50,7 +50,7 @@
                 "minio/minio",
                 "ghcr.io/utkuozdemir/dperson-openvpn-client"
             ],
-            "versioning": "loose"
+            "versioning": "docker"
         },
         {
             "groupName": "docker-ci",
