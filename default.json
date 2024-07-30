@@ -61,9 +61,9 @@
             "matchCategories": [
                 "ci"
             ]
-            "matchDepPatterns": [
-                "^docker/",
-                "^ScribeMD/docker-cache"
+            "matchDepNames": [
+                "docker/*",
+                "ScribeMD/docker-cache"
             ]
         },
         {
@@ -77,32 +77,32 @@
         },
         {
             "groupName": "symfony",
-            "matchDepPatterns": [
-                "^symfony/"
+            "matchDepNames": [
+                "symfony/*"
             ]
         },
         {
             "groupName": "twig",
-            "matchDepPatterns": [
-                "^twig/"
+            "matchDepNames": [
+                "twig/*"
             ]
         },
         {
             "groupName": "doctrine",
-            "matchDepPatterns": [
-                "^doctrine/"
+            "matchDepNames": [
+                "doctrine/*"
             ]
         },
         {
             "groupName": "flysystem",
-            "matchDepPatterns": [
-                "^league/flysystem"
+            "matchDepNames": [
+                "league/flysystem*"
             ]
         },
         {
             "groupName": "pagerfanta",
-            "matchDepPatterns": [
-                "^pagerfanta/"
+            "matchDepNames": [
+                "pagerfanta/*"
             ]
         }
     ]
