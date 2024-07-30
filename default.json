@@ -60,7 +60,7 @@
             "groupName": "docker-ci",
             "matchCategories": [
                 "ci"
-            ]
+            ],
             "matchDepNames": [
                 "docker/*",
                 "ScribeMD/docker-cache"
