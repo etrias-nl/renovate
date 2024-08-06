@@ -16,22 +16,6 @@
             "before 4am on the first day of the month"
         ]
     },
-    "ignoreDeps": [
-        "alptis/net-gearman"
-    ],
-    "customManagers": [
-        {
-            "customType": "regex",
-            "fileMatch": [
-                "^okteto.yaml$"
-            ],
-            "matchStrings": [
-                "image\\s?:\\s?(?<depName>.*?):(?<currentValue>[\\w+\\.\\-]*)"
-            ],
-            "datasourceTemplate": "docker",
-            "versioningTemplate": "loose"
-        }
-    ],
     "kubernetes": {
         "fileMatch": [
             "k8s/.+\\.yaml$"
