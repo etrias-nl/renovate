@@ -45,7 +45,8 @@
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm"
             ],
-            "separateMinorPatch": true
+            "separateMinorPatch": true,
+            "separateMultipleMinor": true
         },
         {
             "groupName": "symfony",
