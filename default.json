@@ -5,13 +5,14 @@
         ":rebaseStalePrs",
         ":semanticCommits"
     ],
+    "timezone": "Europe/Amsterdam",
     "configMigration": true,
     "rangeStrategy": "bump",
     "pinDigests": false,
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-            "before 10am on wednesday"
+            "before 8am on wednesday"
         ]
     },
     "packageRules": [
