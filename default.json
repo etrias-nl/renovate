@@ -9,6 +9,8 @@
     "configMigration": true,
     "rangeStrategy": "bump",
     "pinDigests": false,
+    "separateMinorPatch": true,
+    "separateMultipleMinor": true,
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
@@ -45,9 +47,7 @@
                 "php",
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm"
-            ],
-            "separateMinorPatch": true,
-            "separateMultipleMinor": true
+            ]
         },
         {
             "groupName": "symfony",
