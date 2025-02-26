@@ -45,10 +45,6 @@
         },
         {
             "groupName": "docker-ci",
-            "matchUpdateTypes": [
-                "patch",
-                "minor"
-            ],
             "matchCategories": [
                 "ci"
             ],
