@@ -45,7 +45,6 @@
         },
         {
             "groupName": "docker-ci",
-            "branchTopic": "docker-ci",
             "matchCategories": [
                 "ci"
             ],
