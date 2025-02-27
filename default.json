@@ -44,16 +44,6 @@
             "versioning": "regex:^RELEASE\\.(?<major>\\d{4})-(?<minor>\\d{2})-(?<patch>\\d{2})T(?<build>.+)Z$"
         },
         {
-            "groupName": "docker-ci",
-            "matchCategories": [
-                "ci"
-            ],
-            "matchDepNames": [
-                "docker/*",
-                "ScribeMD/docker-cache"
-            ]
-        },
-        {
             "groupName": "php",
             "matchDepNames": [
                 "php",
