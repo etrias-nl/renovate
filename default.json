@@ -11,6 +11,7 @@
     "pinDigests": false,
     "separateMinorPatch": true,
     "separateMultipleMinor": true,
+    "separateMultipleMajor": true,
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
