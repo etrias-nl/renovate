@@ -15,7 +15,7 @@
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-            "before 8am on wednesday"
+            "after 9am on tuesday"
         ]
     },
     "customManagers": [
