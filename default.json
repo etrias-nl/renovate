@@ -10,7 +10,7 @@
     ],
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
-    "minimumReleaseAge": "1 day",
+    "minimumReleaseAge": "3 days",
     "rangeStrategy": "bump",
     "pinDigests": false,
     "separateMinorPatch": true,
