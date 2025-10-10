@@ -11,6 +11,7 @@
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
     "minimumReleaseAge": "3 days",
+    "draftPR": true,
     "rangeStrategy": "bump",
     "pinDigests": false,
     "separateMinorPatch": true,
