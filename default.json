@@ -38,6 +38,13 @@
     "packageRules": [
         {
             "matchDepNames": [
+                "*etrias*"
+            ],
+            "minimumReleaseAge": "0 days",
+            "draftPR": false
+        },
+        {
+            "matchDepNames": [
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm",
                 "etriasnl/node-dev"
