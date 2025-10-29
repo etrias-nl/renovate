@@ -38,7 +38,7 @@
     "packageRules": [
         {
             "matchDepNames": [
-                "*etrias*"
+                "/etrias/"
             ],
             "minimumReleaseAge": "0 days",
             "draftPR": false
