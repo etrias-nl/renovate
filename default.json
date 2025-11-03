@@ -20,7 +20,7 @@
     "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-            "* 5-12 1-3 * *"
+            "* 5-8 1 * *"
         ]
     },
     "customManagers": [
