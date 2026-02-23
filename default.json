@@ -5,9 +5,6 @@
         ":rebaseStalePrs",
         ":semanticCommits"
     ],
-    "assignees": [
-        "ro0NL"
-    ],
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
     "minimumReleaseAge": "3 days",
