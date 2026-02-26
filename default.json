@@ -66,6 +66,7 @@
             "groupName": "node",
             "matchDepNames": [
                 "node",
+                "npm",
                 "etriasnl/node-dev"
             ]
         },
