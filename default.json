@@ -66,11 +66,8 @@
             "groupName": "node",
             "matchDepNames": [
                 "node",
-                "npm",
                 "etriasnl/node-dev"
-            ],
-            "separateMinorPatch": false,
-            "separateMultipleMinor": false
+            ]
         },
         {
             "groupName": "symfony",
