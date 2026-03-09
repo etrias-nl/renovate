@@ -98,6 +98,15 @@
             "matchDepNames": [
                 "pagerfanta/*"
             ]
+        },
+        {
+            "groupName": "docker",
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchDepNames": [
+                "docker/*"
+            ]
         }
     ]
 }
