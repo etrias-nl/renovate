@@ -107,7 +107,10 @@
             "matchDepNames": [
                 "docker/*"
             ],
-            "rebaseWhen": "conflicted"
+            "rebaseWhen": "conflicted",
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
         }
     ]
 }
