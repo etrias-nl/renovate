@@ -69,7 +69,9 @@
                 "npm",
                 "etriasnl/node-dev"
             ],
-            "separateMinorPatch": false
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
         },
         {
             "groupName": "symfony",
