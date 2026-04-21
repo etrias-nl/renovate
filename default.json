@@ -44,7 +44,8 @@
             "matchDepNames": [
                 "etriasnl/dev-php-fpm",
                 "etriasnl/php-fpm",
-                "etriasnl/node-dev"
+                "etriasnl/node-dev",
+                "etriasnl/camoufox"
             ],
             "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<build>\\d+)$"
         },
