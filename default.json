@@ -35,7 +35,7 @@
     "packageRules": [
         {
             "matchDepNames": [
-                "/etrias/"
+                "/etrias|bizhost/"
             ],
             "minimumReleaseAge": "0 days",
             "draftPR": false
