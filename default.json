@@ -116,14 +116,6 @@
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
-        },
-        {
-            "groupName": "playwright",
-            "matchDepNames": [
-                "mcr.microsoft.com/playwright",
-                "playwright",
-                "@playwright/test"
-            ]
         }
     ]
 }
