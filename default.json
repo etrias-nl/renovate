@@ -8,6 +8,7 @@
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
     "minimumReleaseAge": "3 days",
+    "rebaseWhen": "conflicted",
     "draftPR": true,
     "rangeStrategy": "bump",
     "pinDigests": false,
@@ -112,7 +113,6 @@
             "matchDepNames": [
                 "docker/*"
             ],
-            "rebaseWhen": "conflicted",
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
