@@ -2,7 +2,8 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
-        ":semanticCommits"
+        ":semanticCommits",
+        ":maintainLockFilesMonthly"
     ],
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
@@ -14,12 +15,6 @@
     "separateMinorPatch": true,
     "separateMultipleMinor": true,
     "separateMultipleMajor": true,
-    "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": [
-            "* 0-4 1 * *"
-        ]
-    },
     "customManagers": [
         {
             "customType": "regex",
