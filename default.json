@@ -3,7 +3,8 @@
     "extends": [
         "config:recommended",
         ":semanticCommits",
-        ":maintainLockFilesMonthly"
+        ":maintainLockFilesMonthly",
+        "schedule:nonOfficeHours"
     ],
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
