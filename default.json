@@ -44,7 +44,7 @@
                 "etriasnl/camoufox",
                 "etriasnl/github-runner"
             ],
-            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<build>\\d+)(?:-base)?$"
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<build>\\d+)(?:-(?<compatibility>[a-z]+))?$"
         },
         {
             "matchDepNames": [
