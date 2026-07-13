@@ -42,9 +42,10 @@
                 "etriasnl/php-fpm",
                 "etriasnl/node-dev",
                 "etriasnl/camoufox",
-                "etriasnl/github-runner"
+                "etriasnl/github-runner",
+                "etriasnl/openresty"
             ],
-            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<build>\\d+)(?:-(?<compatibility>\\w+))?$"
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:\\.(?<build>\\d+))?(?:-(?<revision>\\d+))?$"
         },
         {
             "matchDepNames": [
