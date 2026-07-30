@@ -116,6 +116,15 @@
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
+        },
+        {
+            "groupName": "eslint",
+            "matchPackageNames": [
+                "/eslint/"
+            ],
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
         }
     ]
 }
