@@ -125,6 +125,15 @@
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
+        },
+        {
+            "groupName": "playwright",
+            "matchPackageNames": [
+                "/playwright/"
+            ],
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
         }
     ]
 }
