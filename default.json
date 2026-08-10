@@ -106,6 +106,12 @@
             ]
         },
         {
+            "groupName": "google-shopping-merchant",
+            "matchDepNames": [
+                "google/shopping-merchant-*"
+            ]
+        },
+        {
             "groupName": "docker",
             "matchManagers": [
                 "github-actions"
