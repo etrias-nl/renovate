@@ -134,6 +134,15 @@
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
+        },
+        {
+            "groupName": "github-runner",
+            "matchPackageNames": [
+                "/actions-runner-controller-charts/"
+            ],
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
         }
     ]
 }
