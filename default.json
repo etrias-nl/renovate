@@ -137,9 +137,8 @@
         },
         {
             "groupName": "actions-runner-controller",
-            "matchDepNames": [
-                "ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set",
-                "ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller"
+            "matchPackageNames": [
+                "/actions-runner-controller-charts/"
             ],
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
