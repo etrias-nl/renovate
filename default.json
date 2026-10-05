@@ -138,8 +138,7 @@
         {
             "groupName": "github-runner",
             "matchPackageNames": [
-                "ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set",
-                "ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller"
+                "/actions-runner-controller-charts/"
             ],
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
