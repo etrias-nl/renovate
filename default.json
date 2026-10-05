@@ -134,6 +134,16 @@
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
+        },
+        {
+            "groupName": "actions-runner-controller",
+            "matchDepNames": [
+                "ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set",
+                "ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller"
+            ],
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
         }
     ]
 }
