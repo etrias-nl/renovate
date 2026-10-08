@@ -30,6 +30,13 @@
     ],
     "packageRules": [
         {
+            "description": "Renovate gets no release timestamp for ghcr.io tags, so minimumReleaseAge would keep them pending forever",
+            "matchPackageNames": [
+                "ghcr.io/**"
+            ],
+            "minimumReleaseAgeBehaviour": "timestamp-optional"
+        },
+        {
             "matchDepNames": [
                 "/etrias|bizhost/"
             ],
