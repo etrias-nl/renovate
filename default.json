@@ -136,9 +136,19 @@
             "separateMultipleMajor": false
         },
         {
-            "groupName": "github-runner",
+            "groupName": "github-runner-charts",
             "matchPackageNames": [
                 "/actions-runner-controller-charts/"
+            ],
+            "separateMinorPatch": false,
+            "separateMultipleMinor": false,
+            "separateMultipleMajor": false
+        },
+        {
+            "groupName": "github-runner-images",
+            "matchDepNames": [
+                "ghcr.io/actions/actions-runner",
+                "etriasnl/github-runner"
             ],
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
