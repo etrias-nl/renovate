@@ -8,7 +8,7 @@
     ],
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
-    "minimumReleaseAge": "3 days",
+    "minimumReleaseAge": "1 day",
     "rebaseWhen": "conflicted",
     "draftPR": true,
     "rangeStrategy": "bump",
@@ -19,9 +19,9 @@
     "customManagers": [
         {
             "customType": "regex",
-            "fileMatch": [
-                "(^|/|\\.)Dockerfile$",
-                "(^|/)Dockerfile\\.[^/]*$"
+            "managerFilePatterns": [
+                "/(^|/|\\.)Dockerfile$/",
+                "/(^|/)Dockerfile\\.[^/]*$/"
             ],
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>[a-z-]+?)(?: depName=(?<depName>.+?))? packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?(?: registryUrl=(?<registryUrl>.+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
@@ -150,6 +150,7 @@
                 "ghcr.io/actions/actions-runner",
                 "etriasnl/github-runner"
             ],
+            "minimumReleaseAge": "0 days",
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
