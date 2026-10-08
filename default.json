@@ -9,6 +9,7 @@
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
     "minimumReleaseAge": "1 day",
+    "minimumReleaseAgeBehaviour": "timestamp-optional",
     "rebaseWhen": "conflicted",
     "draftPR": true,
     "rangeStrategy": "bump",
