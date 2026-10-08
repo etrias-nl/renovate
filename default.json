@@ -9,6 +9,7 @@
     "timezone": "Europe/Amsterdam",
     "configMigration": true,
     "minimumReleaseAge": "1 day",
+    "minimumReleaseAgeBehaviour": "timestamp-optional",
     "rebaseWhen": "conflicted",
     "draftPR": true,
     "rangeStrategy": "bump",
@@ -29,13 +30,6 @@
         }
     ],
     "packageRules": [
-        {
-            "description": "Renovate gets no release timestamp for ghcr.io tags, so minimumReleaseAge would keep them pending forever",
-            "matchPackageNames": [
-                "ghcr.io/**"
-            ],
-            "minimumReleaseAgeBehaviour": "timestamp-optional"
-        },
         {
             "matchDepNames": [
                 "/etrias|bizhost/"
