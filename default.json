@@ -150,7 +150,6 @@
                 "ghcr.io/actions/actions-runner",
                 "etriasnl/github-runner"
             ],
-            "minimumReleaseAge": "0 days",
             "separateMinorPatch": false,
             "separateMultipleMinor": false,
             "separateMultipleMajor": false
